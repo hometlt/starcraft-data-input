@@ -657,7 +657,7 @@
         <AffectedUnitArray value="Overseer"/>
         <ScoreCount value="ArmorTechnologyCount"/>
         <ScoreValue value="ArmorTechnologyValue"/>
-        <Name value="Upgrade/Name/Zerg Flyer Armors"/>
+        <Name value="Upgrade/Name/ZergFlyerArmors"/>
         <WebPriority value="0"/>
         <LeaderAlias value="ZergFlyerArmors"/>
     </CUpgrade>
