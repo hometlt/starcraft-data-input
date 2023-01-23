@@ -24976,7 +24976,13 @@
     <CModel id="ZerglingClimbing" parent="Doodad"/>
     <CModel id="SymbiotePortrait" parent="Portrait" Race="Zerg"/>
     <CModel id="ChangelingPortrait" parent="Portrait" Race="Zerg"/>
-    <CModel id="AdjutantPortrait" parent="TerranBuildingPortraitBase"/>
+    <CModel id="AdjutantPortrait" parent="TerranBuildingPortraitBase">
+        <!-- Added by Viscroid to Avoid Renaming Issuies-->
+        <Model value="Assets\Portraits\Terran\AdjutantPortrait\AdjutantPortrait.m3"/>
+        <Image value="Assets\Textures\AdjutantPortrait_Static.dds"/>
+        <Lighting value="AdjutantPortrait"/>
+        <!-- End -->
+    </CModel>
     <CModel id="AdjutantPortrait_L" parent="TerranBuildingPortraitBase">
         <FacialController value="LocalizedData\Facial\AdjutantPortrait_L.fxa"/>
     </CModel>

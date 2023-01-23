@@ -2022,11 +2022,11 @@
     <CRequirementCountUpgrade id="UpgradeEMPQueuedOrBetter">
         <Count Link="EMP" State="QueuedOrBetter"/>
     </CRequirementCountUpgrade>
-    <CRequirementCountUnit id="UnitDrop PodQueuedOrBetterAtUnit">
-        <Count Link="Drop Pod" State="QueuedOrBetterAtUnit"/>
+    <CRequirementCountUnit id="UnitDropPodQueuedOrBetterAtUnit">
+        <Count Link="DropPod" State="QueuedOrBetterAtUnit"/>
     </CRequirementCountUnit>
-    <CRequirementNot id="NotUnitDrop PodQueuedOrBetterAtUnit">
-        <OperandArray index="0" value="UnitDrop PodQueuedOrBetterAtUnit"/>
+    <CRequirementNot id="NotUnitDropPodQueuedOrBetterAtUnit">
+        <OperandArray index="0" value="UnitDropPodQueuedOrBetterAtUnit"/>
     </CRequirementNot>
     <CRequirementCountBehavior id="BehaviorMarauderCargoCompleteOnlyAtUnit">
         <Count Link="MarauderCargo" State="CompleteOnlyAtUnit"/>

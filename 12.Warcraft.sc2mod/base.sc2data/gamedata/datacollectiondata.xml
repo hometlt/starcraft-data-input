@@ -4535,7 +4535,7 @@
         <UpgradeInfoWeapon DamagePerDice="6"/>
         <UpgradeInfoUnitLifeArmorPerLevel value="2"/>
         <AbilInfoNormal value="Aspo"/>
-        <AbilInfoNormal value=" Aspt"/>
+        <AbilInfoNormal value="Aspt"/>
         <EditorCategories value="Race:Creeps,DataGroup:Unit,ObjectType:Unit,DataFamily:Melee"/>
     </CDataCollectionUnit>
     <CDataCollectionUnit id="nhyh" parent="War3_Army">
